@@ -32,6 +32,10 @@ langchain
 faiss-cpu
 sentence-transformers
 
+# CPU-only PyTorch for Render
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0+cpu
+
 
 # ==============================
 # PDF Processing

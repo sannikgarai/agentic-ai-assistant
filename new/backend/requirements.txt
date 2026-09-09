@@ -1,7 +1,4 @@
-# ==============================
 # FastAPI Backend
-# ==============================
-
 fastapi
 uvicorn[standard]
 python-dotenv
@@ -9,25 +6,13 @@ python-multipart
 pydantic
 pydantic-settings
 
-
-# ==============================
 # Supabase / Database
-# ==============================
-
 supabase
 
-
-# ==============================
 # Google Gemini
-# ==============================
-
 google-genai
 
-
-# ==============================
 # LLM / RAG
-# ==============================
-
 langchain
 faiss-cpu
 sentence-transformers
@@ -36,56 +21,28 @@ sentence-transformers
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.14.0+cpu
 
-
-# ==============================
 # PDF Processing
-# ==============================
-
 PyMuPDF
 pdfplumber
 
-
-# ==============================
 # Image Processing / OCR
-# ==============================
-
 Pillow
 pytesseract
 
-
-# ==============================
 # Voice Processing
-# ==============================
-
 openai-whisper
 
-
-# ==============================
 # Numerical / Data Processing
-# ==============================
-
 numpy
 pandas
 
-
-# ==============================
 # Browser Automation
-# ==============================
-
 playwright
 
-
-# ==============================
 # HTTP / Networking
-# ==============================
-
 httpx
 requests
 
-
-# ==============================
 # Testing
-# ==============================
-
 pytest
 pytest-asyncio
